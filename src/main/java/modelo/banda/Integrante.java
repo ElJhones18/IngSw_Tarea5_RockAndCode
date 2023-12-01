@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
+/**
+ * Clase Integrante que a su vez es la puerta de entrada de instrumentos
+ */
 public class Integrante {
 
     private String cedula;
@@ -36,6 +39,10 @@ public class Integrante {
         return Objects.hash(cedula);
     }
 
+    /**
+     * Arma toda la información del integrante incluyendo los instrumentos que toca
+     * Si no toca ningún instrumento, por ejemplo, por que es el manager, el campo instrumentos saldrá vacío
+     */
     @Override
     public String toString() {
         StringBuilder strInstrumentos = new StringBuilder("{  ");

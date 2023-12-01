@@ -4,6 +4,9 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Clase Album que también es la entrada a la clase Canción
+ */
 public class Album {
 
     private String nombre;
@@ -20,6 +23,9 @@ public class Album {
         this.canciones.add(cancion);
     }
 
+    /**
+     * Arma un String con la informacion de las canciones del album, esta información viene del método toString de Canción
+     */
     public String getCanciones() {
         StringBuilder cancionesStr = new StringBuilder();
         for (Cancion c: canciones) {

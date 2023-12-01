@@ -7,6 +7,9 @@ import java.time.LocalDate;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
 
+/**
+ * Clase que simula la ventana de interacción entre el usuario y el controlador de conciertos, aquí se realizan las validaciones necesarias para ingresar datos correctos a los métodos de los controladores
+ */
 public class VentanaConciertos {
     private ControlConciertos controlConciertos = new ControlConciertos();
 
@@ -31,6 +34,10 @@ public class VentanaConciertos {
         return sc.next();
     }
 
+    /**
+     * Método útil para leer una hora, se verífican los rangos correctos y el formato
+     * @return un entero que representa la hora
+     */
     private int leerHora() {
         System.out.println("Ingrese la hora del concierto (formato 24HH)");
         int numero = 0;
@@ -70,6 +77,11 @@ public class VentanaConciertos {
         return numero;
     }
 
+    /**
+     * Método útil para leer fechas, se leen los datos por consola y se validan respectivamente
+     * Si se ingresa una cadena, salta el mensaje que pide ingresar un número entero
+     * @return El objeto LocalDate
+     */
     private LocalDate leerFecha() {
         System.out.println("Ingrese la fecha del concierto");
         int ano = 0;

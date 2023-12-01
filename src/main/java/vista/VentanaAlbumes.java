@@ -10,6 +10,9 @@ import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
 
+/**
+ * Clase que simula la ventana de interacción entre el usuario y el controlador de albumes, aquí se realizan las validaciones necesarias para ingresar datos correctos a los métodos del controlador
+ */
 public class VentanaAlbumes {
     private ControlAlbumes controlAlbumes = new ControlAlbumes();
 
@@ -33,6 +36,11 @@ public class VentanaAlbumes {
         return sc.next();
     }
 
+    /**
+     * Método útil para leer fechas, se leen los datos por consola y se validan respectivamente
+     * Si se ingresa una cadena, salta el mensaje que pide ingresar un número entero
+     * @return El objeto LocalDate
+     */
     private LocalDate leerFecha() {
         System.out.println("Ingrese la fecha de lanzamiento del Album");
         int ano = 0;
@@ -64,6 +72,10 @@ public class VentanaAlbumes {
         return LocalDate.of(ano, mes, dia);
     }
 
+    /**
+     * Método útil para leer varias canciones para ingresar a un album, se valida que la duración sea un número entero de segundos
+     * @return una Lista de objetos Canción
+     */
     private List<Cancion> leerCanciones() {
         boolean salir = false;
         List<Cancion> canciones = new ArrayList<>();

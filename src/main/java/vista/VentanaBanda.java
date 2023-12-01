@@ -12,6 +12,9 @@ import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.Scanner;
 
+/**
+ * Clase que simula la ventana de interacción entre el usuario y el controlador de la banda, aquí se realizan las validaciones necesarias para ingresar datos correctos a los métodos de los controladores
+ */
 public class VentanaBanda {
 
     ControlBanda controlBanda = new ControlBanda();
@@ -106,6 +109,10 @@ public class VentanaBanda {
         return rol;
     }
 
+    /**
+     * Método útil para leer las cadenas con las rutas de las fotos de la banda
+     * @return una lista con Strings que contienen las rutas ingresadas
+     */
     private List<String> leerFotos() {
         Scanner sc = new Scanner(System.in);
         List<String> rutas = new ArrayList<>();
@@ -122,6 +129,11 @@ public class VentanaBanda {
         return rutas;
     }
 
+    /**
+     * Método útil para leer fechas, se leen los datos por consola y se validan respectivamente
+     * Si se ingresa una cadena, salta el mensaje que pide ingresar un número entero
+     * @return El objeto LocalDate
+     */
     private LocalDate leerFecha() {
         System.out.println("Ingrese la fecha de creacion de Rock & Code");
         int ano = 0;

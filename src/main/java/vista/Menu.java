@@ -15,6 +15,9 @@ public class Menu {
         opciones();
     }
 
+    /**
+     * Menú principal con el usuario, aqui se exponen las funcionalidades del programa
+     */
     public void opciones() {
         Scanner scanner = new Scanner(System.in);
         boolean salir = false;

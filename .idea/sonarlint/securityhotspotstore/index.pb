@@ -27,14 +27,8 @@ W
 'src/main/java/control/ControlBanda.java,5\6\56efb1fe4ef591548765ca06a93baf29a3b3054b
 U
 %src/main/java/vista/VentanaBanda.java,f\a\fa01ed4009d8f9d21b28de9b5865477de03796b5
-^
-.src/main/java/control/IntegranteException.java,7\1\71bd127f031f80ceb4965d205fa7e916c373c443
-Y
-)src/main/java/control/BandaException.java,6\5\6526a0a53dd84df880e775588c67917bcb967762
 Y
 )src/main/java/control/ControlAlbumes.java,7\2\725a1f0ef0efc8baf68fa53350ec3f3c884d73c2
-O
-src/main/java/package-info.java,a\d\ad9bd4ccb9214167b95b4784e2edb54e4279f19e
 ]
 -src/main/java/excepciones/BandaException.java,9\a\9a2a6a6c46b1fadc39a4f220f5eb05bc67b663b5
 b
