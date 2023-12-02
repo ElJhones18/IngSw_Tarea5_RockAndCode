@@ -37,8 +37,8 @@ public class ControlConciertos {
     }
 
     /**
-     * Arma un String con todos los conciertos realizados por la banda, la informacion de cada uno
-     * viene de el método toString del concierto
+     * Arma un String con todos los conciertos realizados por la banda, la información de cada uno
+     * viene del método toString del concierto
      */
     public String obtenerInformacionConciertos() {
         StringBuilder strConciertos = new StringBuilder();

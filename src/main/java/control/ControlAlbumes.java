@@ -15,7 +15,7 @@ public class ControlAlbumes {
 
     /**
      * Agrega un album a la lista de albumes lanzados por la banda, verificando que no se haya lanzado ya
-     * Se verífica tambien con la fecha, ya que en ocasiones se lanzan versiones nuevas del mismo album
+     * Se verífica también con la fecha, ya que en ocasiones se lanzan versiones nuevas del mismo album
      * @throws AlbumException cuando ya se ha lanzado el album
      */
     public void lanzarAlbum(String nombre, LocalDate fechaLanzamiento) {

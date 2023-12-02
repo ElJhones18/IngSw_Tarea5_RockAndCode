@@ -24,7 +24,7 @@ public class ControlBanda {
 
     /**
      * Actualiza la información, verificando que ya se haya registrado
-     * @param genero genero nuevo de la banda, no se pide fecha de creacion ya que esto solo se puede hacer una vez en la vida
+     * @param genero género nuevo de la banda, no se pide fecha de creacion, ya que esto solo se puede hacer una vez en la vida
      * @throws BandaException cuando no se ha registrado información
      */
     public void actualizarInformacion(String genero) {

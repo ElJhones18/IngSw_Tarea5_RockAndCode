@@ -24,7 +24,7 @@ public class Album {
     }
 
     /**
-     * Arma un String con la informacion de las canciones del album, esta información viene del método toString de Canción
+     * Arma un String con la información de las canciones del album, esta información viene del método toString de Canción
      */
     public String getCanciones() {
         StringBuilder cancionesStr = new StringBuilder();

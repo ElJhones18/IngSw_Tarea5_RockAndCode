@@ -84,3 +84,11 @@ G.idea/sonarlint/issuestore/8/b/8b10ef568a869500562cab58d6462ff6e4417789,b\5\b5
 Q.idea/sonarlint/securityhotspotstore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec,2\c\2cabb939da04d3de3a200bf2b575690e1a16316d
 Å
 Q.idea/sonarlint/securityhotspotstore/0/5/058f3fdc981170cfd55470f144a0bbdc0c644abb,d\c\dcd8d74932f2b9644b25ef3c7c4e0a5d704a1e96
+[
++src/test/java/control/ControlBandaTest.java,0\4\04a7319338c08ca4f75897755dc733bd3ea31409
+a
+1src/test/java/control/ControlIntegrantesTest.java,4\e\4e4973aae3c76e2db52466f2c4aebc42aba73a2b
+`
+0src/test/java/control/ControlConciertosTest.java,e\3\e3cc2e7268a73fce168b4b25c408531135bb08bd
+]
+-src/test/java/control/ControlAlbumesTest.java,6\d\6dc1391f7b14494ecdb289c3507d0b0287ba13bd
